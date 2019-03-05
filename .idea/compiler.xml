@@ -10,6 +10,7 @@
         <module name="client-2" />
         <module name="erureka" />
         <module name="server-1" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="erureka" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="server-1" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
