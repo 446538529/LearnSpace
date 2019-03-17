@@ -1,0 +1,11 @@
+
+server:
+  port: 8000
+spring:
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://localhost:61616
+    pool:
+      enabled: true
+      max-connections: 10
