@@ -6,19 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="activemq" />
         <module name="client-1" />
         <module name="client-2" />
         <module name="erureka" />
         <module name="server-1" />
+        <module name="springboot-activemq" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="activemq" target="1.8" />
       <module name="client-1" target="1.8" />
       <module name="client-2" target="1.8" />
       <module name="erureka" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="server-1" target="1.8" />
+      <module name="springboot-activemq" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
